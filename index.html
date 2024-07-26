@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Abdullah Khan</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon" />
+    <style>
+		/* Inline CSS for header styling */
+		.header-bar {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: #333;
+			color: #fff;
+			padding: 10px 20px;
+			z-index: 1000;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			transition: padding 0.3s, font-size 0.3s;
+		}
+		.header-bar a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 16px;
+			padding: 10px;
+			transition: background 0.3s, color 0.3s;
+		}
+		.header-bar a:hover {
+			background: #555;
+			color: #f0f0f0;
+			border-radius: 4px;
+		}
+		.header-bar .icon {
+			font-size: 20px;
+			vertical-align: middle;
+		}
+		body {
+			padding-top: 50px; /* To prevent content from being hidden under the fixed header */
+		}
+	
+		/* Media Queries */
+		/* For mobile devices */
+		@media (max-width: 767px) {
+			.header-bar {
+				padding: 5px 10px; /* Reduced padding */
+				height: auto; /* Allow content to flow naturally */
+			}
+			.header-bar a {
+				font-size: 14px; /* Slightly smaller font size */
+				padding: 5px; /* Reduced padding */
+			}
+			.header-bar .icon {
+				font-size: 18px; /* Slightly smaller icon size */
+			}
+		}
+	</style>
+	
+</head>
+
+<body class="is-preload">
+
+    <!-- Header Bar -->
+    <div class="header-bar">
+        <a href="#wrapper" class="smooth-scroll-middle"><i ></i> Home</a>
+        <a href="#first" class="smooth-scroll-middle"><i></i> About</a>
+        <a href="#Second" class="smooth-scroll-middle"><i ></i> Projects</a>
+        <a href="#fourth" class="smooth-scroll-middle"><i></i> Contact</a>
+    </div>
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+
+        <!-- One -->
+        <section
+            class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="sec1">
+            <div class="content">
+                <h1>Muhammad Abdullah Khan</h1>
+                <p class="major">Muhammad Abdullah Khan is a Software Engineering student at COMSATS University
+                    Islamabad.
+                    He has experience in game development, data science, and AI through internships and projects.
+                    Abdullah actively volunteers with Kaar-e-Kamal
+                    and participates in the Headstarter Fellowship Program, while also contributing to the COMSATS
+                    Islamic
+                    Society.</p>
+                <ul class="actions stacked">
+                    <li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/mepic.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+            id="first">
+            <div class="content">
+                <h2>Resume</h2>
+                <p>Click the button below to view or download my resume.</p>
+                <ul class="actions special">
+                    <li><a href="https://drive.google.com/file/d/1cyKYFJ4SOIuKGBBHdRETW-iPDrPFg2b7/view?usp=drive_link"
+                            class="button big" target="_blank">Download Resume</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/image2.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="sec3">
+            <div class="content">
+                <header class="major">
+                    <h2>Experience</h2>
+                </header>
+                <ul>
+                    <li>
+                        <h3>Data Science Intern - Prodigy</h3>
+                        <p>Worked on data analysis and machine learning projects. Developed predictive models and
+                            performed data visualization tasks to derive actionable insights.</p>
+                    </li>
+                    <li>
+                        <h3>Volunteer - Kaar-e-Kamal</h3>
+                        <p>Contributed to various initiatives aimed at helping needy people meet their needs, including
+                            organizing events and managing logistics.</p>
+                    </li>
+                    <li>
+                        <h3>Headstart Fellowship Program for Software Engineers</h3>
+                        <p>Participated in a program designed to build projects and enhance software engineering skills
+                            through practical experience and mentorship.</p>
+                    </li>
+                </ul>
+                <ul class="actions stacked">
+                    <li><a href="#Second" class="button big wide smooth-scroll-middle">View Projects</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/image3.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+            id="Second">
+            <div class="content">
+                <h2>Projects Overview</h2>
+                <p>I am a dedicated software engineer with hands-on experience across various domains, including Data
+                    Science, Artificial Intelligence, Web Development, and Game Development. My journey has encompassed
+                    a variety of tasks and projects, from small-scale initiatives to significant, impactful endeavors.
+                    Currently, I am deeply involved in large-scale AI and Data Science projects, continuously pushing
+                    the boundaries of innovation and technology.</p>
+                <ul class="actions stacked">
+                    <li><a href="#third" class="button big wide smooth-scroll-middle">Learn More</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="images/image1.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Six -->
+        <section class="wrapper style1 align-center" id="third">
+            <div class="inner">
+                <h2>Projects Details</h2>
+                <div class="items style1 medium onscroll-fade-in">
+                    <section>
+                        <span class="icon style2 major fa-gem"></span>
+                        <h3>ReactNative&&Firebase App</h3>
+                        <p>I have developed a mobile application using React Native and Firebase, showcasing my skills
+                            in both frontend and backend development. This project features user authentication with
+                            email sign-up and login, integration with the OpenWeatherMap API to fetch weather data, and
+                            Firestore for data retrieval. It demonstrates my ability to build dynamic and responsive
+                            applications, handle real-time data, and ensure a seamless user experience.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-save"></span>
+                        <h3>Adventure Quest</h3>
+                        <p>I developed a 2D game titled "Adventure Quest" using Unity and C#. This project showcases my
+                            expertise in game development, including character movement, collision detection, and
+                            interactive gameplay mechanics. The game features a richly designed environment, engaging
+                            storylines, and challenging levels, demonstrating my ability to create immersive and
+                            enjoyable gaming experiences.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-chart-bar"></span>
+                        <h3>House Prediction</h3>
+                        <p>
+                            I developed a Data Science project to predict house prices. Using a dataset with features
+                            like square footage, number of bedrooms and bathrooms, and neighborhood details, I created a
+                            model to forecast house prices. This project showcases my skills in data analysis and
+                            machine learning, and my ability to work with real-world data to generate useful
+                            predictions.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-wifi"></span>
+                        <h3>GymFit</h3>
+                        <p>I designed and developed a user-friendly frontend site for a gym, named "GymFit." This
+                            project features a clean and intuitive interface that allows users to explore gym services,
+                            view class schedules, and sign up for memberships. By focusing on responsive design and user
+                            experience, I created a visually appealing site that enhances the online presence of the gym
+                            and facilitates easy navigation for users.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-cog"></span>
+                        <h3>Twitter Sentiment Analysis</h3>
+                        <p>I developed a sentiment analysis project using a Twitter dataset. This project involved
+                            analyzing tweets to determine the sentiment expressed in them, whether positive, negative,
+                            or neutral. By applying natural language processing techniques and machine learning
+                            algorithms, I was able to extract meaningful insights from social media data. This project
+                            demonstrates my ability to handle text data, perform sentiment analysis, and uncover trends
+                            in public opinion.</p>
+                    </section>
+                    <section>
+                        <span class="icon style2 major fa-paper-plane"></span>
+                        <h3>NoCode Portfolio Site</h3>
+                        <p>Collaborating with a team, I am developing a NoCode portfolio site that showcases our
+                            projects and skills without the need for traditional coding. This project utilizes AI and
+                            Data Science tools to create a dynamic and interactive portfolio. It allows for easy
+                            customization and updates, making it a powerful platform for displaying our work and
+                            attracting potential employers or clients.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid style2 major fa-chart-bar"></span>
+                        <h3>AI-Powered Lead Generation</h3>
+                        <p>As part of a team, I am working on an AI-powered lead generation project that leverages Data
+                            Science techniques to identify and target potential customers. This project involves
+                            analyzing various data sources to generate high-quality leads, optimize marketing
+                            strategies, and improve conversion rates. By applying machine learning algorithms and data
+                            analysis, our goal is to enhance the efficiency and effectiveness of lead generation
+                            processes.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="wrapper style1 align-center" id="fourth">
+            <h2>Get in touch</h2>
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/abdullahrock329/"
+                            class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/m-abdullah-khan%F0%9F%87%B5%F0%9F%87%B8-127763279/"
+                            class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a>
+                    </li>
+                    <li><a href="mailto:abdullah569261@gmail.com" class="icon style2 fa-envelope"><span
+                                class="label">Email</span></a></li>
+                    <li> <a href="https://github.com/abdullahkhan909" class="icon brands style2 fa-github" target="_blank">
+                            <span class="label">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+923072302440" 
+                           class="fas fa-phone" 
+                           style="text-decoration: none;
+                           border-bottom: none;
+                           position: relative;
+                           text-align: center;">
+                            <span class="label"></span>
+                        </a>
+                    </li>
+                </ul>
+                <p>&copy; all rights reserved <a href="https://html5up.net"></a></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
